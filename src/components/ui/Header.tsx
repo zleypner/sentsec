@@ -50,7 +50,7 @@ export function Header() {
                 isScrolled ? "text-foreground" : "text-white"
               }`}
             >
-              Sentinel Security
+              Ciber Shield CR
             </span>
           </Link>
 

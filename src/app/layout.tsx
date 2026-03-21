@@ -21,8 +21,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sentinelsecuritycr.com"),
-  title: "Sentinel Security CR | Cámaras de Seguridad en Costa Rica",
+  metadataBase: new URL("https://cibershieldcr.com"),
+  title: "Ciber Shield CR | Cámaras de Seguridad en Costa Rica",
   description:
     "Proteja su hogar y negocio en Costa Rica con cámaras de seguridad profesionales. Monitoreo 24/7 desde su celular, instalación rápida y garantía incluida. Solicite su diagnóstico gratis.",
   keywords: [
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     "cámaras HD",
     "sistema de seguridad",
   ],
-  authors: [{ name: "Sentinel Security CR" }],
-  creator: "Sentinel Security CR",
-  publisher: "Sentinel Security CR",
+  authors: [{ name: "Ciber Shield CR" }],
+  creator: "Ciber Shield CR",
+  publisher: "Ciber Shield CR",
   robots: {
     index: true,
     follow: true,
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_CR",
-    url: "https://sentinelsecuritycr.com",
-    siteName: "Sentinel Security CR",
-    title: "Sentinel Security CR | Cámaras de Seguridad Profesionales",
+    url: "https://cibershieldcr.com",
+    siteName: "Ciber Shield CR",
+    title: "Ciber Shield CR | Cámaras de Seguridad Profesionales",
     description:
       "Proteja su hogar y negocio con cámaras de seguridad inteligentes. Monitoreo 24/7 desde su celular. Instalación profesional en Costa Rica.",
     images: [
@@ -64,19 +64,19 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Sentinel Security CR - Cámaras de Seguridad",
+        alt: "Ciber Shield CR - Cámaras de Seguridad",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sentinel Security CR | Cámaras de Seguridad",
+    title: "Ciber Shield CR | Cámaras de Seguridad",
     description:
       "Proteja su hogar y negocio con cámaras de seguridad profesionales en Costa Rica.",
     images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://sentinelsecuritycr.com",
+    canonical: "https://cibershieldcr.com",
   },
   category: "Security Services",
 };

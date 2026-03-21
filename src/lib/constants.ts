@@ -7,7 +7,7 @@ export const getWhatsAppUrl = (message?: string) => {
 };
 
 export const PHONE_NUMBER = "+506 8888-8888";
-export const EMAIL = "info@sentinelsecuritycr.com";
+export const EMAIL = "info@cibershieldcr.com";
 
 export const NAV_LINKS = [
   { href: "#beneficios", label: "Beneficios" },

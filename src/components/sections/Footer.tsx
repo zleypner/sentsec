@@ -22,7 +22,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Sentinel Security CR</span>
+              <span className="text-xl font-bold">Ciber Shield CR</span>
             </div>
 
             <p className="text-slate-400 leading-relaxed max-w-md mb-6">
@@ -102,7 +102,7 @@ export function Footer() {
         <Container className="py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
             <p>
-              {currentYear} Sentinel Security CR. Todos los derechos reservados.
+              {currentYear} Ciber Shield CR. Todos los derechos reservados.
             </p>
             <p>Costa Rica</p>
           </div>
