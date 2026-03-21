@@ -1,0 +1,11 @@
+export { Hero } from "./Hero";
+export { Problem } from "./Problem";
+export { Solution } from "./Solution";
+export { Benefits } from "./Benefits";
+export { Testimonials } from "./Testimonials";
+export { Trust } from "./Trust";
+export { Process } from "./Process";
+export { CTA } from "./CTA";
+export { FAQ } from "./FAQ";
+export { FinalCTA } from "./FinalCTA";
+export { Footer } from "./Footer";
