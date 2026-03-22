@@ -47,7 +47,7 @@ export function Problem() {
                 alt="Intruso intentando entrar"
                 width={500}
                 height={350}
-                className="rounded-2xl shadow-xl"
+                className="rounded-2xl shadow-xl w-auto h-auto"
               />
             </div>
           </div>

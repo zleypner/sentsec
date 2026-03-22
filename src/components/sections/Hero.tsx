@@ -29,7 +29,7 @@ export function Hero() {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">
               Proteja su Hogar y Negocio en Costa Rica{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary">
+              <span className="text-secondary">
                 desde su Celular
               </span>
             </h1>
@@ -77,7 +77,7 @@ export function Hero() {
                 alt="Monitoreo de seguridad desde celular"
                 width={500}
                 height={600}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl w-auto h-auto"
                 priority
               />
             </div>

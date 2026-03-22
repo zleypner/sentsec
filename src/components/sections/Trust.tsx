@@ -72,7 +72,7 @@ export function Trust() {
               alt="Técnico instalando cámara de seguridad"
               width={550}
               height={500}
-              className="rounded-2xl shadow-xl"
+              className="rounded-2xl shadow-xl w-auto h-auto"
             />
           </div>
         </div>

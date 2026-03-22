@@ -39,7 +39,7 @@ export function Solution() {
               alt="App de monitoreo en celular"
               width={550}
               height={400}
-              className="rounded-2xl shadow-xl"
+              className="rounded-2xl shadow-xl w-auto h-auto"
             />
           </div>
 
@@ -75,7 +75,7 @@ export function Solution() {
             alt="Cámara de seguridad HD"
             width={500}
             height={400}
-            className="rounded-2xl shadow-xl"
+            className="rounded-2xl shadow-xl w-auto h-auto"
           />
         </div>
       </Container>

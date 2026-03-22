@@ -39,7 +39,7 @@ export function Testimonials() {
               alt="Familia satisfecha con su sistema de seguridad"
               width={500}
               height={400}
-              className="rounded-2xl shadow-xl"
+              className="rounded-2xl shadow-xl w-auto h-auto"
             />
           </div>
 

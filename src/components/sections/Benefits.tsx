@@ -68,7 +68,7 @@ export function Benefits() {
               alt="Centro de monitoreo de seguridad"
               width={550}
               height={450}
-              className="rounded-2xl shadow-xl"
+              className="rounded-2xl shadow-xl w-auto h-auto"
             />
           </div>
         </div>
