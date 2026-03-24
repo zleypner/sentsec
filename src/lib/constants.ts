@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "50688888888";
+export const WHATSAPP_NUMBER = "50660140366";
 export const WHATSAPP_MESSAGE = "Hola, me interesa obtener información sobre cámaras de seguridad.";
 
 export const getWhatsAppUrl = (message?: string) => {
@@ -6,7 +6,7 @@ export const getWhatsAppUrl = (message?: string) => {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
 };
 
-export const PHONE_NUMBER = "+506 8888-8888";
+export const PHONE_NUMBER = "+506 6014 0366";
 export const EMAIL = "info@cibershieldcr.com";
 
 export const NAV_LINKS = [
