@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, HelpCircle } from "lucide-react";
+import { ChevronDown, HelpCircle, MessageCircle } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Button } from "@/components/ui/Button";
+import { getWhatsAppUrl } from "@/lib/constants";
 
 const faqs = [
   {
@@ -89,6 +91,21 @@ export function FAQ() {
               </div>
             </div>
           ))}
+
+          {/* CTA inline - Más preguntas */}
+          <div className="mt-8 p-6 bg-secondary/5 border border-secondary/20 rounded-2xl text-center">
+            <p className="text-foreground font-medium mb-4">
+              ¿Tiene más preguntas? Estamos para ayudarle
+            </p>
+            <Button
+              variant="secondary"
+              href={getWhatsAppUrl("Hola, tengo algunas preguntas sobre el servicio.")}
+              external
+            >
+              <MessageCircle className="w-5 h-5" />
+              Consultar por WhatsApp
+            </Button>
+          </div>
         </div>
       </Container>
     </section>

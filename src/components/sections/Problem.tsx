@@ -1,6 +1,8 @@
-import { AlertTriangle, Lock, Eye } from "lucide-react";
+import { AlertTriangle, Lock, Eye, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
+import { getWhatsAppUrl } from "@/lib/constants";
 
 const problems = [
   {
@@ -74,6 +76,20 @@ export function Problem() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* CTA - Urgencia después del dolor */}
+        <div className="mt-12 text-center">
+          <p className="text-muted mb-4">No espere a que sea demasiado tarde</p>
+          <Button
+            variant="secondary"
+            size="lg"
+            href={getWhatsAppUrl("Hola, quiero proteger mi propiedad lo antes posible.")}
+            external
+          >
+            <MessageCircle className="w-5 h-5" />
+            Proteger mi propiedad ahora
+          </Button>
         </div>
       </Container>
     </section>

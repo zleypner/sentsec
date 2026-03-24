@@ -1,6 +1,8 @@
-import { Star, Users, MapPin } from "lucide-react";
+import { Star, Users, MapPin, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
+import { getWhatsAppUrl } from "@/lib/constants";
 
 const testimonials = [
   {
@@ -93,6 +95,20 @@ export function Testimonials() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* CTA - Después de testimonios */}
+        <div className="mt-12 text-center">
+          <p className="text-muted mb-4">Únase a nuestros clientes satisfechos</p>
+          <Button
+            variant="secondary"
+            size="lg"
+            href={getWhatsAppUrl("Hola, quiero ser el próximo cliente satisfecho.")}
+            external
+          >
+            <MessageCircle className="w-5 h-5" />
+            Quiero mi sistema de seguridad
+          </Button>
         </div>
       </Container>
     </section>

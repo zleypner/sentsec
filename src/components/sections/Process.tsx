@@ -2,6 +2,8 @@ import { MessageCircle, Phone, Wrench } from "lucide-react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Button } from "@/components/ui/Button";
+import { getWhatsAppUrl } from "@/lib/constants";
 
 const steps = [
   {
@@ -72,6 +74,20 @@ export function Process() {
             height={400}
             className="rounded-2xl shadow-xl w-full max-w-4xl object-cover"
           />
+        </div>
+
+        {/* CTA - Iniciar el proceso */}
+        <div className="mt-12 text-center">
+          <p className="text-muted mb-4">Comience hoy mismo con el Paso 1</p>
+          <Button
+            variant="secondary"
+            size="lg"
+            href={getWhatsAppUrl("Hola, quiero iniciar el proceso de instalación.")}
+            external
+          >
+            <MessageCircle className="w-5 h-5" />
+            Iniciar mi proceso
+          </Button>
         </div>
       </Container>
     </section>

@@ -1,6 +1,8 @@
-import { Clock, Bell, Globe, Zap } from "lucide-react";
+import { Clock, Bell, Globe, Zap, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
+import { Button } from "@/components/ui/Button";
+import { getWhatsAppUrl } from "@/lib/constants";
 
 const benefits = [
   {
@@ -71,6 +73,19 @@ export function Benefits() {
               className="rounded-2xl shadow-xl w-auto h-auto"
             />
           </div>
+        </div>
+
+        {/* CTA - Después de beneficios */}
+        <div className="mt-12 text-center">
+          <Button
+            variant="secondary"
+            size="lg"
+            href={getWhatsAppUrl("Hola, me interesa tener estos beneficios en mi propiedad.")}
+            external
+          >
+            <MessageCircle className="w-5 h-5" />
+            Quiero estos beneficios
+          </Button>
         </div>
       </Container>
     </section>
