@@ -92,8 +92,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/assets/fav.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/assets/fav.png" />
       </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground">
         {children}
