@@ -23,7 +23,7 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
               <Shield className="w-4 h-4 text-white" />
               <span className="text-sm font-medium text-white/90">
-                Ciber Shield CR
+                CiberShield CR
               </span>
             </div>
 

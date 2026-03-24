@@ -50,7 +50,7 @@ export function Header() {
                 isScrolled ? "text-foreground" : "text-white"
               }`}
             >
-              Ciber Shield CR
+              CiberShield CR
             </span>
           </Link>
 

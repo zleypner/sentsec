@@ -22,7 +22,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Ciber Shield CR</span>
+              <span className="text-xl font-bold">CiberShield CR</span>
             </div>
 
             <p className="text-slate-400 leading-relaxed max-w-md mb-6">
@@ -102,10 +102,27 @@ export function Footer() {
         <Container className="py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
             <p>
-              {currentYear} Ciber Shield CR. Todos los derechos reservados.
+              {currentYear} CiberShield CR. Todos los derechos reservados.
             </p>
             <p>Costa Rica</p>
           </div>
+        </Container>
+      </div>
+
+      {/* Made by Yieldge */}
+      <div className="bg-slate-950 py-4">
+        <Container>
+          <p className="text-center text-sm text-slate-500">
+            Made by{" "}
+            <a
+              href="https://www.yieldge.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-400 transition-colors"
+            >
+              Yieldge
+            </a>
+          </p>
         </Container>
       </div>
     </footer>
